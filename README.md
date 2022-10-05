@@ -13,7 +13,7 @@ and activate it with
 You will use a gunicorn production server and the Flask Framework to build your Python Server. So you need to install all Frameworks with:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 or install them seperately with:
