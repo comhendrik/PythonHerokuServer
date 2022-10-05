@@ -26,6 +26,9 @@ You need a Procfile located in the root directory. I already added it to the roo
 Now run:
 ```
 git init
+```
+The git init command isn't necassary because you already have a repository after downloading but you need to include when you start from scratch
+```
 git add .
 git commit -m "<your commit message>"
 ```
@@ -44,7 +47,7 @@ To give heroku acces to your git repo run:
 ```
 heroku git:remote <appname>
 ```
-Now is the time to push your repo to heroku with(heroku will automatically build the application and you can visit it under https://appname.herokuapp.com/index):
+Now is the time to push your repo to heroku with(heroku will automatically build the application and you can visit it under https://appname.herokuapp.com/test):
 ```
 git push heroku master
 ```
